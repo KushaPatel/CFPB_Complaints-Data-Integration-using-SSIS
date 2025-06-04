@@ -32,14 +32,6 @@ The final destination is a SQL Server table:
 ## ⚠️ Error Handling
 - Invalid or problematic rows are redirected to error outputs or logged in a dedicated error table for later review and correction.
 
-
-
-## 🏗️ Additional Features (Optional)
-- Create dimension tables for key categorical fields like `Product`, `Sub-product`, `Issue`, `State`, and `Company`.
-- Use **Lookup** or **Slow Changing Dimension (SCD)** transformations for dimension management.
-
----
-
 ## 💡 Best Practices Followed
 ✅ Data type matching  
 ✅ Consistent naming conventions  
